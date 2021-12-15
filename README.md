@@ -1,22 +1,24 @@
 # BMIN503/EPID600 Final Project - Roopsha Bandopadhyay
 
-This repository contains templates for your final written report and GitHub repository. Follow the instructions below to clone this repository, and then turn in your final project's code via a pull request to this repository.
-
-1. To start, **fork** this BMIN503_Final_Project repository.
-1. **Clone** the forked repository to your computer.
-1. Modify the files provided, add your own, and **commit** changes to complete your final project.
-1. **Push**/sync the changes up to your GitHub account.
-1. Create a **pull request** on this, the original BMIN503_Final_Project, repository to turn in your final project.
-
-Follow the instructions [here][forking] if you are unsure what the above steps mean.
-
-DUE DATE FOR FINAL VERSION: 12/10/21 11:59PM. This is a hard deadline. Turn in whatever you have by this date.
-
-<!-- Links -->
-[forking]: https://guides.github.com/activities/forking/
-
 # Contents of this repository
 
 * README.md file
-* final_project_template Rmd file
-* final_project_template html file
+* c2.cp.kegg.v7.4.symbols.gmt: KEGG pathway data
+* c2.cp.reactome.v7.4.symbols.gmt: Reactome pathway data
+* final_project_template_html: HTML file of the final project
+* final_project_template_rmd: Rmd file of the final project
+* GSE17400 folder: Contains CEL files of experimental data from [GEO accession GSE17400](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSe17400)
+* GSE17400_DE_results_control_sarscov.txt: Differentially expressed genes between non-infected samples at 48 hours and SARS-CoV-infected samples at 48 hours.
+* GSE17400_DE_results.control_dohv.txt: Differentially expressed genes between non-infected samples at 48 hours and DOHV-infected samples at 48 hours.
+* GSE17400_DE_results.sarscov_dohv.txt: Differentially expressed genes between SARS-CoV-infected samples at 48 hours and DOHV-infected samples at 48 hours.
+* GSE17400_DE_results.sarscov.txt: Differentially expressed genes between SARS-CoV-infected samples at 12 hours and SARS-CoV-infected samples at 48 hours. ​
+* GSE17400_DE_results_dohv.txt: Differentially expressed genes between DOHV-infected samples at 12 hours and DOHV-infected samples at 48 hours. 
+* GSE71766 folder: Contains CEL files of experimental data from [GEO accession GSE71766](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71766)
+* GSE71766_DE_results_control_influenza.txt: Differentially expressed genes between non-infected samples at 48 hours and H1N1-infected samples at 48 hours.
+* GSE71766_DE_results.control_rhino.txt: Differentially expressed genes between non-infected samples at 48 hours and rhinovirus-infected samples at 48 hours.
+* GSE71766_DE_results.influenza_rhino.txt: Differentially expressed genes between H1N1-infected samples at 48 hours and rhinovirus-infected samples at 48 hours.
+* GSE71766_DE_results.influenza.txt: Differentially expressed genes between H1N1-infected samples at 2 hours and H1N1-infected samples at 48 hours.
+* GSE71766_DE_results.rhinos.txt: Differentially expressed genes between rhinovirus-infected samples at 2 hours and rhinovirus-infected samples at 48 hours.
+* owid-covid-data.csv: The complete COVID-19 dataset from [Our World in Data](https://github.com/owid/covid-19-data) as of December 10, 2021
+
+
